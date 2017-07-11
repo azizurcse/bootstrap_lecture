@@ -10,23 +10,43 @@
 </head>
 <body>
 	<div class="container">
-        <button class="btn btn-success" data-toggle="modal" data-target="#modal1">modal demo</button>
-        <div class="modal fade" id="modal1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-
-                        <h4>modal header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>this is modal demo body</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn default" data-dismiss="modal">Close</button>
+        <div id="carousel1" class="carousel slide" data-ride="carousel" style="width: 700px;">
+            <ol class="carousel-indicators">
+               <li data-target="#carousel1" data-slide-to="0" class="0"></li> 
+               <li data-target="#carousel1" data-slide-to="1"></li> 
+               <li data-target="#carousel1" data-slide-to="2"></li> 
+               <li data-target="#carousel1" data-slide-to="3"></li> 
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/1.png" width="700px" height="400px">
+                    <div class="carousel-caption">
+                        <h4>hi</h4>
+                        <p>hello jibon</p>
                     </div>
                 </div>
-                
+                <div class="item">
+                    <img src="images/2.png" width="700px" height="400px">
+                    <div class="carousel-caption">
+                        <h4>hi</h4>
+                        <p>hello jibon</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/3.png" width="700px" height="400px">
+                    <div class="carousel-caption">
+                        <h4>hi</h4>
+                        <p>hello jibon</p>
+                    </div>
+                </div>
             </div>
+
+            <a href="#carousel1" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-shevron-left" aria-hidden="true"></span>
+            </a>
+            <a href="#carousel1" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-shevron-right" aria-hidden="true"></span>
+            </a>
         </div>
     </div>
 </body>
